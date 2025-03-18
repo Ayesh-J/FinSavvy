@@ -1,0 +1,71 @@
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #4caf50, #81c784); /* Green gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.About__container {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for a premium look */
+}
+
+.About__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.About__text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Slightly lighter text for readability */
+}
+
+.About__btn-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.About__btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.About__btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.About__btn--outline {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.About__btn--outline:hover {
+    background-color: #fff;
+    color: #4caf50;
+}

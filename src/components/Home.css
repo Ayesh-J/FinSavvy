@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #4caf50, #81c784); /* Green gradient background */
+    color: #fff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__logo-img {
+    width: 40px;
+    height: auto;
+}
+
+.navbar__logo-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar__items ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar__items ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar__items ul li a:hover {
+    color: #4caf50;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background: linear-gradient(to right, #4caf50, #81c784); /* Green gradient background */
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap; /* Responsive layout */
+}
+
+.hero__content {
+    flex: 1;
+    text-align: left;
+}
+
+.hero__title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.hero__title span {
+    color: #ffeb3b; /* Highlighted text color */
+}
+
+.hero__subtitle {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #f0f0f0; /* Slightly lighter text for readability */
+}
+
+.hero__btn-row {
+    display: flex;
+    gap: 20px;
+}
+
+.hero__btn {
+    display: inline-block;
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+}
+
+.hero__btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+
+.hero__btn--outline {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.hero__btn--outline:hover {
+    background-color: #fff;
+    color: #4caf50;
+}
+
+.hero__image {
+    flex: 1;
+    text-align: center;
+}
+
+.hero__image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for the image */
+}

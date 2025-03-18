@@ -1,0 +1,75 @@
+.Dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4caf50, #81c784); /* Green gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Dashboard__container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.Dashboard__title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.Dashboard__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.Dashboard__card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent card background */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for a premium look */
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Dashboard__card:hover {
+    transform: translateY(-10px); /* Slight lift effect */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
+
+.Dashboard__card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.Dashboard__card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.Dashboard__card-content p,
+.Dashboard__analytics p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.Dashboard__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Dashboard__list li {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #f0f0f0;
+}

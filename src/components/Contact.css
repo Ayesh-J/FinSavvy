@@ -1,0 +1,91 @@
+.Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #4caf50, #81c784); /* Green gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Contact__container {
+    max-width: 600px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for a premium look */
+    padding: 30px;
+}
+
+.Contact__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle text shadow */
+}
+
+.Contact__description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #f0f0f0; /* Slightly lighter text for readability */
+}
+
+.Contact__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Contact__form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.Contact__form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.Contact__form-group input,
+.Contact__form-group textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent input background */
+    color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease;
+}
+
+.Contact__form-group input:focus,
+.Contact__form-group textarea:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+}
+
+.Contact__btn {
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4caf50;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+    cursor: pointer;
+}
+
+.Contact__btn:hover {
+    background-color: #4caf50;
+    color: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
