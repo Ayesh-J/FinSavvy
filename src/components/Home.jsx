@@ -2,6 +2,7 @@ import React from "react";
 import './Home.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import logo from "./components/Logo.png";
 
 const Home = () => {
     return (
@@ -10,7 +11,7 @@ const Home = () => {
              <section className="navbar">
                 <div className="navbar__container">
                     <div className="navbar__logo">
-                        <img src="/src/assets/Logo.png" alt="logo" className="navbar__logo-img" />
+                        <img src={logo} alt="FinSavvy" />
                         <h1 className="navbar__logo-text">FinSavvy</h1>
                     </div>
                     <div className="navbar__items">
