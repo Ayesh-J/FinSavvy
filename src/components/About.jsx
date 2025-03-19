@@ -19,9 +19,9 @@ const About = () => {
                         they need to thrive in today’s dynamic financial landscape. Join us on this journey to financial excellence.
                     </p>
                     <div className="About__btn-row">
-                        <a href="/services" className="About__btn">Our Services</a>
-                        <a href="/contact" className="About__btn About__btn--outline">Contact Us</a>
-                    </div>
+                         <Link to="/Services" className="About__btn"> Our Services</Link>
+                            <Link to="/Contact" className="About__btn About__btn--outline">Contact Us</Link>
+                    </div> 
                 </div>
             </section>
         </>
